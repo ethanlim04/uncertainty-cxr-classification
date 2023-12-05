@@ -83,7 +83,7 @@ Bayesian deep learning models excel in domains with high-risk, mainly medical im
 
 To ease the computational demand, Monte Carlo Dropout is introduced as a technique that implicitly performs Bayesian inference, thereby representing uncertainty in predictions.
 
-In “[Dropout as a Bayesian Approximation: Representing Model Uncertainty in Deep Learning](https://arxiv.org/abs/1506.02142)”, MC Dropout is viewed as a method to average predictions over an ensemble of networks, approximating the integral of the posterior.
+In *[Dropout as a Bayesian Approximation: Representing Model Uncertainty in Deep Learning](https://arxiv.org/abs/1506.02142)*, MC Dropout is viewed as a method to average predictions over an ensemble of networks, approximating the integral of the posterior.
 
 
 ## Chest X-Rays (CXRs) for Medical Checkups
