@@ -174,7 +174,7 @@ When validated on MIMIC, both models performed under expectations, showing the c
 
 ## DenseNet-121 Experiments
 
-Transfer learning is used with DenseNet-121 which is pretrained on ImageNet. CheXpert and MIMIC are used for training and validation in this experiment. To identify the effects of preprocessing on uncertainty, various preprocessing techniques are experimented with. The model used in this experiment was inspired after [this paper](https://ieeexplore.ieee.org/document/). MC Dropout is implemented in each “Dense Block” to preserve the spatial structure. 
+Transfer learning is used with DenseNet-121 which is pretrained on ImageNet. CheXpert and MIMIC are used for training and validation in this experiment. To identify the effects of preprocessing on uncertainty, various preprocessing techniques are experimented with. The model used in this experiment was inspired after [this paper](https://pubmed.ncbi.nlm.nih.gov/33206612/). MC Dropout is implemented in each “Dense Block” to preserve the spatial structure. 
 
 
 
