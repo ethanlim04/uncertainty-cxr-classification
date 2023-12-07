@@ -1,54 +1,3 @@
-<!-----
-
-You have some errors, warnings, or alerts. If you are using reckless mode, turn it off to see inline alerts.
-* ERRORs: 0
-* WARNINGs: 0
-* ALERTS: 16
-
-Conversion time: 5.673 seconds.
-
-
-Using this Markdown file:
-
-1. Paste this output into your source file.
-2. See the notes and action items below regarding this conversion run.
-3. Check the rendered output (headings, lists, code blocks, tables) for proper
-   formatting and use a linkchecker before you publish this page.
-
-Conversion notes:
-
-* Docs to Markdown version 1.0β35
-* Mon Dec 04 2023 23:08:44 GMT-0800 (PST)
-* Source doc: CXR project
-* This document has images: check for >>>>>  gd2md-html alert:  inline image link in generated source and store images to your server. NOTE: Images in exported zip file from Google Docs may not appear in  the same order as they do in your doc. Please check the images!
-
------>
-
-
-<!-- <p style="color: red; font-weight: bold">>>>>>  gd2md-html alert:  ERRORs: 0; WARNINGs: 0; ALERTS: 16.</p>
-<ul style="color: red; font-weight: bold"><li>See top comment block for details on ERRORs and WARNINGs. <li>In the converted Markdown or HTML, search for inline alerts that start with >>>>>  gd2md-html alert:  for specific instances that need correction.</ul>
-
-<p style="color: red; font-weight: bold">Links to alert messages:</p><a href="#gdcalert1">alert1</a>
-<a href="#gdcalert2">alert2</a>
-<a href="#gdcalert3">alert3</a>
-<a href="#gdcalert4">alert4</a>
-<a href="#gdcalert5">alert5</a>
-<a href="#gdcalert6">alert6</a>
-<a href="#gdcalert7">alert7</a>
-<a href="#gdcalert8">alert8</a>
-<a href="#gdcalert9">alert9</a>
-<a href="#gdcalert10">alert10</a>
-<a href="#gdcalert11">alert11</a>
-<a href="#gdcalert12">alert12</a>
-<a href="#gdcalert13">alert13</a>
-<a href="#gdcalert14">alert14</a>
-<a href="#gdcalert15">alert15</a>
-<a href="#gdcalert16">alert16</a>
-
-<p style="color: red; font-weight: bold">>>>>> PLEASE check and correct alert issues and delete this message and the inline alerts.<hr></p> -->
-
-
-
 ## Bayesian Statistics in Deep Learning
 
 Traditional statistics
@@ -69,14 +18,14 @@ Traditional models: uses fixed parameters for estimation
 
 
 
-* Makes** deterministic predictions **for a given situation
+* Makes **deterministic predictions** for a given situation
 * **Can not incorporate inherent uncertainty** in parameter values or data
 
 Bayesian models: uses probability distributions as parameters for estimation
 
 
 
-* Outputs a **range of possible predictions **with their confidence scores
+* Outputs a **range of possible predictions** with their confidence scores
 * **Incorporates inherent uncertainty** in real world situations (ex. noisy data)
 
 Bayesian deep learning models excel in domains with high-risk, mainly medical imaging, owing to their ability to account for uncertainty. However, Bayesian inferences are computationally demanding, requiring integration over high-dimensional parameter spaces.
@@ -101,7 +50,7 @@ The following experiments aimed to assess uncertainty in Chest-X-Ray anomaly det
 
 "Uncertainty scores" are calculated based on the distribution of confidence scores. The goal of these experiments was to reduce false negatives as much as possible. The first few experiments verify that uncertainty scores are capable of separating true and false predictions. Later experiments compare results against traditional models. 
 
-The findings suggest that Bayesian models excel in capturing uncertainty compared to traditional SOTA models. The best **bayesian model had a specificity of 0.93 and an F1 score of 0.94** compared to the best **vanilla model with a specificity of 0.895 and F1 score of 0.92**.
+The findings suggest that Bayesian models excel in capturing uncertainty compared to traditional SOTA models. The best **bayesian model had a specificity of 0.93 and an F1 score of 0.94** compared to the best **vanilla model with a specificity of 0.895 and F1 score of 0.92**. The Bayesian model lowered false negatives by 15.6% when tested on ChestX-ray 14.
 
 However, similar to traditional models, Bayesian models struggled to address medical accuracy in predictions and encountered challenges related to domain adaptability. In conclusion, to address the issue of domain variance, a continuous model is proposed, aiming to facilitate model adaptation to different X-Ray machines utilized in various hospital settings.
 
